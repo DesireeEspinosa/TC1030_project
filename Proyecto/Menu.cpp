@@ -6,7 +6,7 @@
 #include <chrono>
 #include <ctime>
 
-Menu::Menu() {
+Menu::Menu() : verduras(1,5), frutas(6,10), cereales(11,15), carnes(16,20), lacteos(21,25) {
     time_t tiempoActual = chrono::system_clock::to_time_t(chrono::system_clock::now());
     string strTiempoActual = ctime(&tiempoActual);
 
@@ -15,11 +15,7 @@ Menu::Menu() {
     horaCreacion = strTiempoActual.substr(11, 8); // HH:MM:SS
 
     // Crear los grupos
-    Grupo verduras(1, 5);
-    Grupo frutas(6, 10);
-    Grupo cereales(11, 15);
-    Grupo carnes(16, 20);
-    Grupo lacteos(21, 25);
+
 }
 
 int Menu::calcularCalorias() const {
@@ -29,4 +25,5 @@ int Menu::calcularCalorias() const {
 void Menu::imprimirMenu() const {
     cout << "Fecha de creacion: " << fechaCreacion << "\n";
     cout << "Hora de creacion: " << horaCreacion << "\n";
+
 }

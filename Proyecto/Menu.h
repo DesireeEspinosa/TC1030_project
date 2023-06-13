@@ -11,7 +11,7 @@ using namespace std;
 class Menu {
     string fechaCreacion;
     string horaCreacion;
-
+    Grupo verduras, frutas, cereales, carnes, lacteos;
 public:
     Menu();
     ~Menu() {}
