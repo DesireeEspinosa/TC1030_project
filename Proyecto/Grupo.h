@@ -12,13 +12,8 @@ using namespace std;
 
 class Grupo {
     vector<Alimento> alimentos;
-    vector<Alimento> verduras;
-    vector<Alimento> frutas;
-    vector<Alimento> cereales;
-    vector<Alimento> lacteos;
-    vector<Alimento> carnes;
 public:
-    Grupo();
+    Grupo(int, int);
     ~Grupo() { };
     void generarGrupo(vector<Alimento> &nombreGrupo, int inicio);
     void printAlimentos();

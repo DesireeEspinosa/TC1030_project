@@ -3,10 +3,9 @@
 #include <vector>
 #include <fstream>
 #include "Grupo.h"
+#include "Menu.h"
 
 int main() {
-    Grupo g1;
-    g1.printAlimentos();
 
     return 0;
 }

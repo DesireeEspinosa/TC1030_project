@@ -14,6 +14,7 @@ class Alimento {
 
 public:
     // Constructor que lee de un archivo
+    Alimento() {};
     Alimento(ifstream& file);
 
     // Getters

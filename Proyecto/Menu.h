@@ -5,6 +5,7 @@
 #ifndef PROYECTO_MENU_H
 #define PROYECTO_MENU_H
 #include <iostream>
+#include "Grupo.h"
 using namespace std;
 
 class Menu {
@@ -19,6 +20,7 @@ public:
     string getFechaCreacion() const { return fechaCreacion; }
     string getHoraCreacion() const { return horaCreacion; }
     int calcularCalorias() const;
+    void imprimirMenu() const;
 };
 
 

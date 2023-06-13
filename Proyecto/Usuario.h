@@ -5,11 +5,11 @@
 #ifndef PROYECTO_USUARIO_H
 #define PROYECTO_USUARIO_H
 #include "Menu.h"
+#include "Persona.h"
 #include <string>
 
-class Usuario {
+class Usuario: public Persona {
     Menu menuSugerido;
-
 public:
     Usuario() : menuSugerido(Menu()) {}
     Usuario(const Menu& menu) : menuSugerido(menu) {}

@@ -6,23 +6,37 @@
 #include <iostream>
 using namespace std;
 #include <fstream>
+#include <sstream>
 
-Grupo::Grupo() {
+Grupo::Grupo(int infLimit, int supLimit) {
     ifstream file("Alimentos.csv");
     if (!file.is_open()) {
         cout << "No se pudo abrir el archivo" << endl;
         exit(0);
     }
 
-    while (!file.eof()) {
-        alimentos.emplace_back(file);
+    string line;
+    int rowNumber = 0;
+
+    while (getline(file, line)) {
+        rowNumber++;
+        if (rowNumber >= infLimit && rowNumber <= supLimit) {
+            istringstream iss(line);
+            string nombreAlimento;
+            string strCalorias;
+
+            getline(iss, nombreAlimento, ',');
+            getline(iss, strCalorias);
+
+            Alimento alimento;
+            alimento.setNombre(nombreAlimento);
+            alimento.setCaloriasPor100(stof(strCalorias));
+
+            alimentos.emplace_back(alimento);
+        }
     }
 
-    generarGrupo(verduras,0);
-    generarGrupo(frutas,5);
-    generarGrupo(cereales,10);
-    generarGrupo(carnes,15);
-    generarGrupo(lacteos,20);
+    file.close();
 }
 
 void Grupo::generarGrupo(vector<Alimento> &nombreGrupo, int inicio) {
@@ -34,7 +48,7 @@ void Grupo::generarGrupo(vector<Alimento> &nombreGrupo, int inicio) {
 
 
 void Grupo::printAlimentos() {
-    for (auto &alimento: lacteos) {
+    for (auto &alimento: alimentos) {
         cout << alimento.getNombre() << endl;
         cout << alimento.getCaloriasPor100() << endl;
     }
