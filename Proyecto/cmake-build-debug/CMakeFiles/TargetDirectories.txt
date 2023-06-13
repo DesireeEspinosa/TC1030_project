@@ -1,3 +1,3 @@
-/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir
-/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/Proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/desireeespinosa/Library/CloudStorage/OneDrive-Personal/Escuela(mac)/Semestre 2/TC1030/Proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/cmake-build-debug/CMakeFiles/Proyecto.dir
+C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
