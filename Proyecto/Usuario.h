@@ -11,7 +11,7 @@
 class Usuario: public Persona {
     Menu menuSugerido;
 public:
-    Usuario() : menuSugerido(Menu()) {}
+    Usuario() : menuSugerido(), Persona() {}
     Usuario(const Menu& menu) : menuSugerido(menu) {}
     ~Usuario() {}
 

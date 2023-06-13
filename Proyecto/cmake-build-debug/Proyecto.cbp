@@ -108,6 +108,12 @@
 		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Persona.h">
 			<Option target="Proyecto"/>
 		</Unit>
+		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Usuario.cpp">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Usuario.h">
+			<Option target="Proyecto"/>
+		</Unit>
 		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/main.cpp">
 			<Option target="Proyecto"/>
 		</Unit>

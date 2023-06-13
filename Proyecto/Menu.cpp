@@ -13,9 +13,6 @@ Menu::Menu() : verduras(1,5), frutas(6,10), cereales(11,15), carnes(16,20), lact
     // Separar la fecha y la hora del string strTiempoActual
     fechaCreacion = strTiempoActual.substr(4, 7) + strTiempoActual.substr(20, 4); // Mon DD YYYY
     horaCreacion = strTiempoActual.substr(11, 8); // HH:MM:SS
-
-    // Crear los grupos
-
 }
 
 int Menu::calcularCalorias() const {

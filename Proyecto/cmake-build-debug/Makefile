@@ -224,6 +224,30 @@ Persona.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Persona.cpp.s
 .PHONY : Persona.cpp.s
 
+Usuario.obj: Usuario.cpp.obj
+.PHONY : Usuario.obj
+
+# target to build an object file
+Usuario.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Usuario.cpp.obj
+.PHONY : Usuario.cpp.obj
+
+Usuario.i: Usuario.cpp.i
+.PHONY : Usuario.i
+
+# target to preprocess a source file
+Usuario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Usuario.cpp.i
+.PHONY : Usuario.cpp.i
+
+Usuario.s: Usuario.cpp.s
+.PHONY : Usuario.s
+
+# target to generate assembly for a file
+Usuario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Usuario.cpp.s
+.PHONY : Usuario.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -269,6 +293,9 @@ help:
 	@echo ... Persona.obj
 	@echo ... Persona.i
 	@echo ... Persona.s
+	@echo ... Usuario.obj
+	@echo ... Usuario.i
+	@echo ... Usuario.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

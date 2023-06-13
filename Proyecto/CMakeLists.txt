@@ -3,4 +3,4 @@ project(Proyecto)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Proyecto main.cpp Alimento.cpp Persona.cpp Menu.cpp Grupo.cpp)
+add_executable(Proyecto main.cpp Alimento.cpp Persona.cpp Menu.cpp Grupo.cpp Usuario.cpp Persona.cpp)

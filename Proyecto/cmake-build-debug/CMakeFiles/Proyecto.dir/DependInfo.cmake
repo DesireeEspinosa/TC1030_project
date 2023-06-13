@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Grupo.cpp" "CMakeFiles/Proyecto.dir/Grupo.cpp.obj" "gcc" "CMakeFiles/Proyecto.dir/Grupo.cpp.obj.d"
   "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Menu.cpp" "CMakeFiles/Proyecto.dir/Menu.cpp.obj" "gcc" "CMakeFiles/Proyecto.dir/Menu.cpp.obj.d"
   "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Persona.cpp" "CMakeFiles/Proyecto.dir/Persona.cpp.obj" "gcc" "CMakeFiles/Proyecto.dir/Persona.cpp.obj.d"
+  "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Usuario.cpp" "CMakeFiles/Proyecto.dir/Usuario.cpp.obj" "gcc" "CMakeFiles/Proyecto.dir/Usuario.cpp.obj.d"
   "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/main.cpp" "CMakeFiles/Proyecto.dir/main.cpp.obj" "gcc" "CMakeFiles/Proyecto.dir/main.cpp.obj.d"
   )
 
