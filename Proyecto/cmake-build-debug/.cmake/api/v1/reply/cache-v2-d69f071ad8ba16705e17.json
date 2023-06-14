@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug"
+			"value" : "c:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto"
+			"value" : "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1327,7 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug"
+			"value" : "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/cmake-build-debug"
 		},
 		{
 			"name" : "Proyecto_IS_TOP_LEVEL",
@@ -1351,7 +1351,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto"
+			"value" : "C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto"
 		}
 	],
 	"kind" : "cache",

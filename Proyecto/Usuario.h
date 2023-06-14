@@ -16,7 +16,7 @@ public:
     ~Usuario() {}
 
     // Métodos
-    void crearMenu();
+    void imprimirMenu();
     void verHistorial();
     int recomendarCalorias();
 };

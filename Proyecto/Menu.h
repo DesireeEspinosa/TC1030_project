@@ -20,7 +20,13 @@ public:
     string getFechaCreacion() const { return fechaCreacion; }
     string getHoraCreacion() const { return horaCreacion; }
     int calcularCalorias() const;
-    void imprimirMenu() const;
+    void crearDesayuno(int limCalorias);
+    void crearComida(int limCalorias);
+    void crearCena(int limCalorias);
+    void crearMenu(int limCalorias);
+
+    // Operator << overload
+    friend ostream& operator<<(ostream& os, const Menu& menu);
 };
 
 

@@ -8,12 +8,7 @@
 #include "Menu.h"
 
 int main() {
-    Usuario usuario;
-    usuario.setNombre("Desiree");
-    usuario.setEdad(20);
-    usuario.setPeso(50.0f);
-    usuario.setAltura(1.60f);
-    cout << usuario.calcularIMC();
+    // cout << "¡Bienvenido a NutriFit! \n";
 
     return 0;
 }

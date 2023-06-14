@@ -24,6 +24,9 @@ public:
     // Setters
     void setNombre(const string& nombre) { this->nombre = nombre; }
     void setCaloriasPor100(float caloriasPor100) { this->caloriasPor100 = caloriasPor100; }
+
+    // Overload << operator
+    friend ostream& operator<<(ostream& os, const Alimento& alimento);
 };
 
 #endif //PROYECTO_ALIMENTO_H

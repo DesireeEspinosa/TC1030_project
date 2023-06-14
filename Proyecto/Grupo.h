@@ -15,6 +15,7 @@ class Grupo {
 public:
     Grupo(int, int);
     ~Grupo() { };
+    Alimento getAlimento(int i) { return alimentos[i]; }
     void generarGrupo(vector<Alimento> &nombreGrupo, int inicio);
     void printAlimentos();
 

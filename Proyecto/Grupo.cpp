@@ -49,8 +49,8 @@ void Grupo::generarGrupo(vector<Alimento> &nombreGrupo, int inicio) {
 
 void Grupo::printAlimentos() {
     for (auto &alimento: alimentos) {
-        cout << alimento.getNombre() << endl;
-        cout << alimento.getCaloriasPor100() << endl;
+        cout << alimento.getNombre() << "\n";
+        cout << alimento.getCaloriasPor100() << "\n";
     }
 }
 

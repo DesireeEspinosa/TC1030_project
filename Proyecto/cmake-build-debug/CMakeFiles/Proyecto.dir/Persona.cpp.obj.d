@@ -1,6 +1,6 @@
 CMakeFiles/Proyecto.dir/Persona.cpp.obj: \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\Persona.cpp \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\Persona.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Persona.cpp \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Persona.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

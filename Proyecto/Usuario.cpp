@@ -4,21 +4,27 @@
 
 #include "Usuario.h"
 
-void Usuario::crearMenu() {
+void Usuario::imprimirMenu() {
     // Implementar la lógica para crear un menú.
+    menuSugerido = Menu();
+    cout << menuSugerido;
+    cout << "Te hemos construido este menu: \n";
     switch(recomendarCalorias()){
         case 2000:
-            cout << "Tu IMC es menor a 18.5, se te recomienda consumir 2000 calorias" << endl;
+            cout << "Tu IMC es menor a 18.5, se te recomienda consumir 2000 calorias. \n";
+            menuSugerido.crearMenu(recomendarCalorias());
             break;
         case 1800:
-            cout << "Tu IMC es menor a 25, se te recomienda consumir 1800 calorias" << endl;
+            cout << "Tu IMC es menor a 25, se te recomienda consumir 1800 calorias. \n";
+            menuSugerido.crearMenu(recomendarCalorias());
             break;
         case 1500:
-            cout << "Tu IMC es menor a 30, se te recomienda consumir 1500 calorias" << endl;
+            cout << "Tu IMC es menor a 30, se te recomienda consumir 1500 calorias \n";
+            menuSugerido.crearMenu(recomendarCalorias());
             break;
         case 1200:
-            cout << "Tu IMC es mayor a 30, se te recomienda consumir 1200 calorias" << endl;
-            break;
+            cout << "Tu IMC es mayor a 30, se te recomienda consumir 1200 calorias \n";
+            menuSugerido.crearMenu(recomendarCalorias());
     }
 }
 
