@@ -26,9 +26,9 @@ public:
     void crearComida(int limCalorias);
     void crearCena(int limCalorias);
     void crearMenu(int limCalorias);
-    vector<Alimento> getDesayuno() const { return desayuno; }
-    vector<Alimento> getComida() const { return comida; }
-    vector<Alimento> getCena() const { return cena; }
+    vector<Alimento*> getDesayuno() const { return desayuno; }
+    vector<Alimento*> getComida() const { return comida; }
+    vector<Alimento*> getCena() const { return cena; }
     // Operator << overload
     friend ostream& operator<<(ostream& os, const Menu& menu);
 };
