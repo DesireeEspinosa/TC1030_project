@@ -12,8 +12,10 @@ class Menu {
     string fechaCreacion;
     string horaCreacion;
     Grupo verduras, frutas, cereales, carnes, lacteos;
+    vector<Alimento *> desayuno, comida, cena;
 public:
     Menu();
+    Menu(int);
     ~Menu() {}
 
     // Métodos

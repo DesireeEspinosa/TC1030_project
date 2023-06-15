@@ -8,7 +8,7 @@
 #include "Menu.h"
 
 int main() {
-    // cout << "¡Bienvenido a NutriFit! \n";
+    Menu m1(2000);
 
     return 0;
 }

@@ -16,6 +16,8 @@ public:
     Grupo(int, int);
     ~Grupo() { };
     Alimento getAlimento(int i) { return alimentos[i]; }
+    string getNombre() { return alimentos[0].getNombre(); }
+    float getCaloriasPor100() { return alimentos[0].getCaloriasPor100(); }
     void generarGrupo(vector<Alimento> &nombreGrupo, int inicio);
     void printAlimentos();
 

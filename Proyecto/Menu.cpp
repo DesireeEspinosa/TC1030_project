@@ -16,6 +16,16 @@ Menu::Menu() : verduras(1,5), frutas(6,10), cereales(11,15), carnes(16,20), lact
     horaCreacion = strTiempoActual.substr(11, 8); // HH:MM:SS
 }
 
+Menu::Menu(int calorias) : verduras(1,5), frutas(6,10), cereales(11,15), carnes(16,20), lacteos(21,25) {
+    time_t tiempoActual = chrono::system_clock::to_time_t(chrono::system_clock::now());
+    string strTiempoActual = ctime(&tiempoActual);
+
+    // Separar la fecha y la hora del string strTiempoActual
+    fechaCreacion = strTiempoActual.substr(4, 7) + strTiempoActual.substr(20, 4); // Mon DD YYYY
+    horaCreacion = strTiempoActual.substr(11, 8); // HH:MM:SS
+    crearMenu(calorias);
+}
+
 int Menu::calcularCalorias() const {
     // Implementar la lógica para calcular las calorías
 }
@@ -26,6 +36,7 @@ ostream& operator<<(ostream& os, const Menu& menu) {
     os << "Hora de creación: " << menu.getHoraCreacion() << "\n";
     return os;
 }
+
 void Menu::crearDesayuno(int limCalorias) {
     cout << "Desayuno \n";
     srand(time(0));
@@ -33,10 +44,13 @@ void Menu::crearDesayuno(int limCalorias) {
     while (calorias < limCalorias) {
         int randomCerealIndex = rand() % 5; // assuming there are 5 elements
         int randomFrutaIndex = rand() % 5; // assuming there are 5 elements
-
+        Alimento cereal = cereales.getAlimento(randomCerealIndex);
+        this -> desayuno.push_back(new Alimento(cereal));
         cout << cereales.getAlimento(randomCerealIndex);
         calorias += cereales.getAlimento(randomCerealIndex).getCaloriasPor100();
         if (calorias < limCalorias){
+            Alimento fruta = frutas.getAlimento(randomFrutaIndex);
+            this -> desayuno.push_back(new Alimento(fruta));
             cout << frutas.getAlimento(randomFrutaIndex);
             calorias += frutas.getAlimento(randomFrutaIndex).getCaloriasPor100();
         }
@@ -48,14 +62,17 @@ void Menu::crearComida(int limCalorias) {
     srand(time(0));
     int calorias = 0;
     while (calorias < limCalorias) {
-        int randomCerealIndex = rand() % 5; // assuming there are 5 elements
-        int randomFrutaIndex = rand() % 5; // assuming there are 5 elements
-
-        cout << carnes.getAlimento(randomCerealIndex);
-        calorias += carnes.getAlimento(randomCerealIndex).getCaloriasPor100();
+        int randomCarnesIndex = rand() % 5; // assuming there are 5 elements
+        int randomVerduraIndex = rand() % 5; // assuming there are 5 elements
+        Alimento carne = carnes.getAlimento(randomCarnesIndex);
+        this -> comida.push_back(new Alimento(carne));
+        cout << carnes.getAlimento(randomCarnesIndex);
+        calorias += carnes.getAlimento(randomCarnesIndex).getCaloriasPor100();
         if (calorias < limCalorias){
-            cout << verduras.getAlimento(randomFrutaIndex);
-            calorias += verduras.getAlimento(randomFrutaIndex).getCaloriasPor100();
+            cout << verduras.getAlimento(randomVerduraIndex);
+            Alimento verdura = verduras.getAlimento(randomVerduraIndex);
+            this -> comida.push_back(new Alimento(verdura));
+            calorias += verduras.getAlimento(randomVerduraIndex).getCaloriasPor100();
         }
     }
 }
@@ -65,11 +82,11 @@ void Menu::crearCena(int limCalorias) {
     srand(time(0));
     int calorias = 0;
     while (calorias < limCalorias) {
-        int randomCerealIndex = rand() % 5; // assuming there are 5 elements
-        int randomFrutaIndex = rand() % 5; // assuming there are 5 elements
-
-        cout << lacteos.getAlimento(randomCerealIndex);
-        calorias += lacteos.getAlimento(randomCerealIndex).getCaloriasPor100();
+        int randomLacteosIndex = rand() % 5; // assuming there are 5 elements
+        Alimento lacteo = lacteos.getAlimento(randomLacteosIndex);
+        this -> cena.push_back(new Alimento(lacteo));
+        cout << lacteos.getAlimento(randomLacteosIndex);
+        calorias += lacteos.getAlimento(randomLacteosIndex).getCaloriasPor100();
 
     }
 }

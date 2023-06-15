@@ -20,3 +20,4 @@ ostream& operator<<(ostream& os, const Alimento& alimento) {
     os << alimento.nombre << " " << alimento.caloriasPor100 << "\n";
     return os;
 }
+

@@ -15,6 +15,8 @@ class Alimento {
 public:
     // Constructor que lee de un archivo
     Alimento() {};
+    Alimento(const string& nombre, float caloriasPor100) : nombre(nombre), caloriasPor100(caloriasPor100) {}
+    Alimento(const Alimento& alimentoCopy) : nombre(alimentoCopy.nombre), caloriasPor100(alimentoCopy.caloriasPor100) {}
     Alimento(ifstream& file);
 
     // Getters
