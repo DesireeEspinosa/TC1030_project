@@ -6,9 +6,13 @@
 #include "Persona.h"
 #include "Usuario.h"
 #include "Menu.h"
+#include "MyApp.h"
 
 int main() {
-    Menu m1(2000);
+    MyApp app;
+    app.crearUsuario("Desiree");
+    app.registrarDatos();
+    app.recomendarMenu();
 
     return 0;
 }

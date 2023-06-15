@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto.dir/Grupo.cpp.obj.d"
   "CMakeFiles/Proyecto.dir/Menu.cpp.obj"
   "CMakeFiles/Proyecto.dir/Menu.cpp.obj.d"
+  "CMakeFiles/Proyecto.dir/MyApp.cpp.obj"
+  "CMakeFiles/Proyecto.dir/MyApp.cpp.obj.d"
   "CMakeFiles/Proyecto.dir/Persona.cpp.obj"
   "CMakeFiles/Proyecto.dir/Persona.cpp.obj.d"
   "CMakeFiles/Proyecto.dir/Usuario.cpp.obj"

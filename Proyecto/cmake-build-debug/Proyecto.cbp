@@ -102,6 +102,12 @@
 		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/Menu.h">
 			<Option target="Proyecto"/>
 		</Unit>
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/MyApp.cpp">
+			<Option target="Proyecto"/>
+		</Unit>
+		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/MyApp.h">
+			<Option target="Proyecto"/>
+		</Unit>
 		<Unit filename="C:/Users/PC BULLOCK/Documents/2do semestre/tc1030/TC1030_project/Proyecto/Persona.cpp">
 			<Option target="Proyecto"/>
 		</Unit>

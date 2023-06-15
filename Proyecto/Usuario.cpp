@@ -12,23 +12,20 @@ void Usuario::imprimirMenu() {
     switch(recomendarCalorias()){
         case 2000:
             cout << "Tu IMC es menor a 18.5, se te recomienda consumir 2000 calorias. \n";
-            //menuSugerido.crearMenu(recomendarCalorias());
-            Menu(2000);
+            menus.push_back(Menu(2000));
             break;
         case 1800:
             cout << "Tu IMC es menor a 25, se te recomienda consumir 1800 calorias. \n";
-            //menuSugerido.crearMenu(recomendarCalorias());
             Menu(1800);
+            menus.push_back(Menu(1800));
             break;
         case 1500:
             cout << "Tu IMC es menor a 30, se te recomienda consumir 1500 calorias \n";
-            //menuSugerido.crearMenu(recomendarCalorias());
-            Menu(1500);
+            menus.push_back(Menu(1500));
             break;
         case 1200:
             cout << "Tu IMC es mayor a 30, se te recomienda consumir 1200 calorias \n";
-            //menuSugerido.crearMenu(recomendarCalorias());
-            Menu(1200);
+            menus.push_back(Menu(2000));
     }
 }
 
@@ -48,4 +45,3 @@ int Usuario::recomendarCalorias() {
         return 1200;
     }  
 }
-

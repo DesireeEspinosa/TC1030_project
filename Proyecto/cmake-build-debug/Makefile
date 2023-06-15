@@ -200,6 +200,30 @@ Menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/Menu.cpp.s
 .PHONY : Menu.cpp.s
 
+MyApp.obj: MyApp.cpp.obj
+.PHONY : MyApp.obj
+
+# target to build an object file
+MyApp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/MyApp.cpp.obj
+.PHONY : MyApp.cpp.obj
+
+MyApp.i: MyApp.cpp.i
+.PHONY : MyApp.i
+
+# target to preprocess a source file
+MyApp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/MyApp.cpp.i
+.PHONY : MyApp.cpp.i
+
+MyApp.s: MyApp.cpp.s
+.PHONY : MyApp.s
+
+# target to generate assembly for a file
+MyApp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto.dir\build.make CMakeFiles/Proyecto.dir/MyApp.cpp.s
+.PHONY : MyApp.cpp.s
+
 Persona.obj: Persona.cpp.obj
 .PHONY : Persona.obj
 
@@ -290,6 +314,9 @@ help:
 	@echo ... Menu.obj
 	@echo ... Menu.i
 	@echo ... Menu.s
+	@echo ... MyApp.obj
+	@echo ... MyApp.i
+	@echo ... MyApp.s
 	@echo ... Persona.obj
 	@echo ... Persona.i
 	@echo ... Persona.s
