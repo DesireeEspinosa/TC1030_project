@@ -31,7 +31,7 @@ void MyApp::registrarDatos() {
 void MyApp::recomendarMenu() {
     bool seguir = true;
     int sas;
-    while (true) {
+    while (seguir == true) {
         int calorias = usuario.recomendarCalorias();
         cout << "Calorias recomendadas: " << calorias << endl;
         usuario.imprimirMenu();
@@ -39,6 +39,40 @@ void MyApp::recomendarMenu() {
         cin >> sas;
         if (sas == 0) {
             seguir = false;
+        }
+    }
+}
+
+void MyApp::generarReporte() {
+    usuario.verHistorial();
+}
+
+void MyApp::menuPrincipal() {
+    int opcion;
+    bool seguir = true;
+    while (seguir == true) {
+        cout << "¡Bienvenido a Vida Sana! \n";
+        cout << "1. Registrar datos \n";
+        cout << "2. Recomendar menu \n";
+        cout << "3. Generar reporte \n";
+        cout << "4. Salir \n";
+        cin >> opcion;
+        switch (opcion) {
+            case 1:
+                registrarDatos();
+                break;
+            case 2:
+                recomendarMenu();
+                break;
+            case 3:
+                generarReporte();
+                break;
+            case 4:
+                seguir = false;
+                break;
+            default:
+                cout << "Opcion invalida \n";
+                break;
         }
     }
 }

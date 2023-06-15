@@ -32,8 +32,17 @@ int Menu::calcularCalorias() const {
 
 // Operator << overload
 ostream& operator<<(ostream& os, const Menu& menu) {
-    os << "Fecha de creación: " << menu.getFechaCreacion() << "\n";
-    os << "Hora de creación: " << menu.getHoraCreacion() << "\n";
+    os << "Fecha de creacion: " << menu.getFechaCreacion() << "\n";
+    os << "Hora de creacion: " << menu.getHoraCreacion() << "\n";
+    for (int i = 0; i < menu.getDesayuno().size(); ++i) {
+        os << &(menu.getDesayuno()[i]);
+    }
+    for (int i = 0; i < menu.getComida().size(); ++i) {
+        os << &menu.getComida()[i];
+    }
+    for (int i = 0; i < menu.getCena().size(); ++i) {
+        os << &menu.getCena()[i];
+    }
     return os;
 }
 

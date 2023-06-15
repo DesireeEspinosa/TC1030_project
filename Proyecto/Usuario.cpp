@@ -31,6 +31,10 @@ void Usuario::imprimirMenu() {
 
 void Usuario::verHistorial() {
     // Implementar la lógica para ver el historial.
+    cout << "Todos los menus creados \n";
+    for (int i = 0; i < menus.size(); i++) {
+        cout << menus[i];
+    }
 }
 
 int Usuario::recomendarCalorias() {

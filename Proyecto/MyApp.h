@@ -16,8 +16,8 @@ public:
     void crearUsuario(string nombreUsuario);
     void registrarDatos();
     void recomendarMenu();
-
-
+    void generarReporte();
+    void menuPrincipal();
 };
 
 

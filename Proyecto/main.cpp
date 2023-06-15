@@ -10,10 +10,7 @@
 
 int main() {
     MyApp app;
-    app.crearUsuario("Desiree");
-    app.registrarDatos();
-    app.recomendarMenu();
-
+    app.menuPrincipal();
     return 0;
 }
 

@@ -12,7 +12,7 @@ class Menu {
     string fechaCreacion;
     string horaCreacion;
     Grupo verduras, frutas, cereales, carnes, lacteos;
-    vector<Alimento *> desayuno, comida, cena;
+    vector<Alimento*> desayuno, comida, cena;
 public:
     Menu();
     Menu(int);
@@ -26,7 +26,9 @@ public:
     void crearComida(int limCalorias);
     void crearCena(int limCalorias);
     void crearMenu(int limCalorias);
-
+    vector<Alimento> getDesayuno() const { return desayuno; }
+    vector<Alimento> getComida() const { return comida; }
+    vector<Alimento> getCena() const { return cena; }
     // Operator << overload
     friend ostream& operator<<(ostream& os, const Menu& menu);
 };
