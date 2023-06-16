@@ -32,14 +32,12 @@ void MyApp::registrarDatos() {
 
 void MyApp::recomendarMenu() {
     bool seguir = true;
-    int SAS;
+    int opcion;
     while (seguir == true) {
-        int calorias = usuario.recomendarCalorias();
-        cout << "Calorias recomendadas: " << calorias << endl;
-        usuario.imprimirMenu();
+        usuario.implementarMenu();
         cout << "Desea crear otro menu? (1: Si, 0: No) \n";
-        cin >> SAS;
-        if (SAS == 0) {
+        cin >> opcion;
+        if (opcion == 0) {
             seguir = false;
         }
     }

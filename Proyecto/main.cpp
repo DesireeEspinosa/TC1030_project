@@ -2,10 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
-#include "Grupo.h"
-#include "Persona.h"
 #include "Usuario.h"
-#include "Menu.h"
 #include "MyApp.h"
 
 

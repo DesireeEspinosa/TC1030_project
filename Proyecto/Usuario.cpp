@@ -4,7 +4,7 @@
 
 #include "Usuario.h"
 
-void Usuario::imprimirMenu() {
+void Usuario::implementarMenu() {
     // Implementar la lógica para crear un menú.
     cout << "Te hemos construido este menu: \n";
     switch(recomendarCalorias()){

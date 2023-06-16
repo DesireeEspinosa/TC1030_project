@@ -1,6 +1,6 @@
 CMakeFiles/Proyecto.dir/main.cpp.obj: \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\main.cpp \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\Alimento.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\main.cpp \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Alimento.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -143,8 +143,8 @@ CMakeFiles/Proyecto.dir/main.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\Grupo.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\Persona.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\Usuario.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\Menu.h \
- C:\Users\yasmi\OneDrive\Documents\2do\ semestre\poo\ 2\TC1030_project\Proyecto\MyApp.h
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\MyApp.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Usuario.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Menu.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Grupo.h \
+ C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Persona.h

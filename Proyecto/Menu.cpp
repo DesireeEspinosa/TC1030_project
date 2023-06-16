@@ -101,3 +101,5 @@ void Menu::crearMenu(int limCalorias) {
     crearComida(limCalorias/2);
     crearCena(limCalorias/4);
 }
+
+

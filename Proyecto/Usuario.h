@@ -22,7 +22,7 @@ public:
     // Métodos
     vector<Menu> getMenus() const { return menus; }
     void setNombreUsuario(string nombreUsuario) { this->nombreUsuario = nombreUsuario; }
-    void imprimirMenu();
+    void implementarMenu();
     void verHistorial();
     int recomendarCalorias();
 };
