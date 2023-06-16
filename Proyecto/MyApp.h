@@ -16,7 +16,11 @@ public:
     void crearUsuario(string nombreUsuario);
     void registrarDatos();
     void recomendarMenu();
-    void generarReporte();
+    void generarReporteCompleto();
+    void generarReporteMensual();
+    void generarReporteDiario();
+    void generarReporteAnual();
+    //void generarReporteCalorico();
     void menuPrincipal();
 };
 

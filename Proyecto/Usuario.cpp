@@ -6,26 +6,33 @@
 
 void Usuario::imprimirMenu() {
     // Implementar la lógica para crear un menú.
-    menuSugerido = Menu();
-    cout << menuSugerido;
     cout << "Te hemos construido este menu: \n";
     switch(recomendarCalorias()){
         case 2000:
             cout << "Tu IMC es menor a 18.5, se te recomienda consumir 2000 calorias. \n";
-            menus.push_back(Menu(2000));
+            menuSugerido = Menu(2000);
+            menus.push_back(menuSugerido);
+            cout << menuSugerido;
             break;
         case 1800:
             cout << "Tu IMC es menor a 25, se te recomienda consumir 1800 calorias. \n";
-            Menu(1800);
-            menus.push_back(Menu(1800));
+            menuSugerido = Menu(1800);
+            menus.push_back(menuSugerido);
+            cout << menuSugerido;
+            menus.push_back(menuSugerido);
             break;
         case 1500:
             cout << "Tu IMC es menor a 30, se te recomienda consumir 1500 calorias \n";
-            menus.push_back(Menu(1500));
+            menuSugerido = Menu(1800);
+            menus.push_back(menuSugerido);
+            cout << menuSugerido;
+            menus.push_back(menuSugerido);
             break;
         case 1200:
             cout << "Tu IMC es mayor a 30, se te recomienda consumir 1200 calorias \n";
-            menus.push_back(Menu(2000));
+            menuSugerido = Menu(1200);
+            menus.push_back(menuSugerido);
+            cout << menuSugerido;
     }
 }
 

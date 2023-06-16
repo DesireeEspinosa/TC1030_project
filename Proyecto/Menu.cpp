@@ -5,7 +5,6 @@
 #include "Menu.h"
 #include <chrono>
 #include <ctime>
-#include <ctime>
 
 Menu::Menu() : verduras(1,5), frutas(6,10), cereales(11,15), carnes(16,20), lacteos(21,25) {
     time_t tiempoActual = chrono::system_clock::to_time_t(chrono::system_clock::now());
@@ -24,10 +23,6 @@ Menu::Menu(int calorias) : verduras(1,5), frutas(6,10), cereales(11,15), carnes(
     fechaCreacion = strTiempoActual.substr(4, 7) + strTiempoActual.substr(20, 4); // Mon DD YYYY
     horaCreacion = strTiempoActual.substr(11, 8); // HH:MM:SS
     crearMenu(calorias);
-}
-
-int Menu::calcularCalorias() const {
-    // Implementar la lógica para calcular las calorías
 }
 
 // Operator << overload

@@ -9,8 +9,7 @@
 using namespace std;
 
 class Menu {
-    string fechaCreacion;
-    string horaCreacion;
+    string fechaCreacion, horaCreacion;
     Grupo verduras, frutas, cereales, carnes, lacteos;
     vector<Alimento*> desayuno, comida, cena;
 public:
@@ -21,7 +20,7 @@ public:
     // Métodos
     string getFechaCreacion() const { return fechaCreacion; }
     string getHoraCreacion() const { return horaCreacion; }
-    int calcularCalorias() const;
+    //int getCalorias() const { return calorias; }
     void crearDesayuno(int limCalorias);
     void crearComida(int limCalorias);
     void crearCena(int limCalorias);
@@ -31,6 +30,7 @@ public:
     vector<Alimento*> getCena() const { return cena; }
     // Operator << overload
     friend ostream& operator<<(ostream& os, const Menu& menu);
+
 };
 
 
