@@ -128,7 +128,6 @@ void MyApp::menuPrincipal() {
                 cout << "Ingrese su nombre de usuario: \n";
                 cin >> nombreUsuario; // use variable
                 for (int i = 0; i < usuarios.size(); i++) {
-                    cout << "Comparing: " << usuarios[i]->getNombreUsuario() << " with " << nombreUsuario << endl;
                     if (usuarios[i]->getNombreUsuario() == nombreUsuario) {
                         existeUsuario = true;
                         usuarioIndex = i;
