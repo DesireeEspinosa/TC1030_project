@@ -16,6 +16,7 @@ a) Usar un IDE:
 
 Abrir la carpeta "Proyecto" desde tu IDE.
 Compilar y correr los archivos *cpp.
+
 b) Usando la terminal (compilador g++)
 
 Ejecutar el siguiente comando en la terminal:
