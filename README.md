@@ -1,35 +1,43 @@
 # TC1030_project
 Este proyecto consiste en un sistema de información integral que permite a los usuarios administrar su consumo de alimentos de manera eficiente y personalizada. Está implementado en C++ utilizando programación orientada a objetos.
 
-## Instructions
-1. Clone the repository by running the following command in your terminal:
+## Instrucciones
+1. Clonar el repositorio desde la terminal: 
 ```
-git clone https://github.com/DulceBucio/Serpientes-Escaleras.git
+git clone https://github.com/DulceBucio/Serpientes-Escaleras.git](https://github.com/DesireeEspinosa/TC1030_project.git
 ```
-2. Open the directory of the file using the full path on your operating system:
+2. Abrir la carpeta introduciendo la dirección correcta de tu sistema:
 ```
-cd ...\Serpientes-Escaleras\src
+cd ...\TC1030_project\Proyecto
 ```
-3. Run the program using one of the following methods:
+3. Ejecutar el programa con alguno de los siguientes métodos:
 
-a) Using an IDE:
+a) Usar un IDE:
 
-Open the src directory in your preferred IDE.
-Compile and run the source files *.cpp within the project.
-b) Using the command line (g++ compiler):
+Abrir la carpeta "Proyecto" desde tu IDE.
+Compilar y correr los archivos *cpp.
+b) Usando la terminal (compilador g++)
 
-Execute the following command in the terminal:
+Ejecutar el siguiente comando en la terminal:
 
 ```
 g++ *.cpp -o program
 ```
-Then, run the generated program with the following command:
+Después, leer el programa generado con el siguiente comando:
 ```
 ./program
 ```
-4. After successfully running the program, use the "A" key to start playing in automatic mode or the "M" key to start playing in manual mode.
+4. Después de correr exitosamente el programa, registrate para hacer uso de los servicios de la aplicación con la opción desplegada en el menú.
 
-Enjoy the Snakes and Ladders game!
+5. Inicia sesión con tu identificador de usuario.
+
+6. Introduce los datos solicitados: nombre, estatura, peso y edad.
+  
+7. Solicita los menús que desees.
+
+8. Genera reportes de distinto tipo si los necesitas.
+
+¡Cuída de tu salud de la manera más práctica con VidaSana!
 
 ## Clases
 El sistema se compone de las siguientes clases:
