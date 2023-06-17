@@ -45,6 +45,7 @@ void Menu::crearDesayuno(int limCalorias) {
     cout << "Desayuno \n";
     srand(time(0));
     int calorias = 0;
+    caloriasContadas = 0;
     while (calorias < limCalorias) {
         int randomCerealIndex = rand() % 5; // assuming there are 5 elements
         int randomFrutaIndex = rand() % 5; // assuming there are 5 elements
@@ -52,11 +53,13 @@ void Menu::crearDesayuno(int limCalorias) {
         this -> desayuno.push_back(new Alimento(cereal));
         cout << cereales.getAlimento(randomCerealIndex);
         calorias += cereales.getAlimento(randomCerealIndex).getCaloriasPor100();
+        caloriasContadas += cereales.getAlimento(randomCerealIndex).getCaloriasPor100();
         if (calorias < limCalorias){
             Alimento fruta = frutas.getAlimento(randomFrutaIndex);
             this -> desayuno.push_back(new Alimento(fruta));
             cout << frutas.getAlimento(randomFrutaIndex);
             calorias += frutas.getAlimento(randomFrutaIndex).getCaloriasPor100();
+            caloriasContadas += frutas.getAlimento(randomFrutaIndex).getCaloriasPor100();
         }
     }
 }
@@ -72,11 +75,13 @@ void Menu::crearComida(int limCalorias) {
         this -> comida.push_back(new Alimento(carne));
         cout << carnes.getAlimento(randomCarnesIndex);
         calorias += carnes.getAlimento(randomCarnesIndex).getCaloriasPor100();
+        caloriasContadas += carnes.getAlimento(randomCarnesIndex).getCaloriasPor100();
         if (calorias < limCalorias){
             cout << verduras.getAlimento(randomVerduraIndex);
             Alimento verdura = verduras.getAlimento(randomVerduraIndex);
             this -> comida.push_back(new Alimento(verdura));
             calorias += verduras.getAlimento(randomVerduraIndex).getCaloriasPor100();
+            caloriasContadas += verduras.getAlimento(randomVerduraIndex).getCaloriasPor100();
         }
     }
 }
@@ -91,6 +96,7 @@ void Menu::crearCena(int limCalorias) {
         this -> cena.push_back(new Alimento(lacteo));
         cout << lacteos.getAlimento(randomLacteosIndex);
         calorias += lacteos.getAlimento(randomLacteosIndex).getCaloriasPor100();
+        caloriasContadas += lacteos.getAlimento(randomLacteosIndex).getCaloriasPor100();
 
     }
 }

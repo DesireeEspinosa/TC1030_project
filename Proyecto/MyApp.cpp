@@ -8,11 +8,15 @@
 #include <ctime>
 using namespace std;
 
-void MyApp::crearUsuario(string nombreUsuario) {
-    usuario = Usuario(nombreUsuario);
+void MyApp::crearUsuario() {
+    string nombreUsuario;
+    cout << "Introduzca un identificador de usuario \n";
+    cin >> nombreUsuario;
+    Usuario* usuario = new Usuario(nombreUsuario);
+    this -> usuarios.push_back(usuario);
 }
 
-void MyApp::registrarDatos() {
+void MyApp::registrarDatos(Usuario usuario) {
     string usuarioNombre;
     float usuarioAltura, usuarioPeso;
     int usuarioEdad;
@@ -30,7 +34,7 @@ void MyApp::registrarDatos() {
     usuario.setEdad(usuarioEdad);
 }
 
-void MyApp::recomendarMenu() {
+void MyApp::recomendarMenu(Usuario &usuario) {
     bool seguir = true;
     int opcion;
     while (seguir == true) {
@@ -43,11 +47,11 @@ void MyApp::recomendarMenu() {
     }
 }
 
-void MyApp::generarReporteCompleto() {
+void MyApp::generarReporteCompleto(Usuario usuario) {
     usuario.verHistorial();
 }
 
-void MyApp::generarReporteMensual() {
+void MyApp::generarReporteMensual(Usuario usuario) {
     time_t tiempoActual = chrono::system_clock::to_time_t(chrono::system_clock::now());
     string strTiempoActual = ctime(&tiempoActual);
     string fechaPeticion = strTiempoActual.substr(4, 7) + strTiempoActual.substr(20, 4); // Mon DD YYYY
@@ -64,7 +68,7 @@ void MyApp::generarReporteMensual() {
     }
 }
 
-void MyApp::generarReporteDiario() {
+void MyApp::generarReporteDiario(Usuario usuario) {
     time_t tiempoActual = chrono::system_clock::to_time_t(chrono::system_clock::now());
     string strTiempoActual = ctime(&tiempoActual);
     string fechaPeticion = strTiempoActual.substr(4, 7) + strTiempoActual.substr(20, 4); // Mon DD YYYY
@@ -78,7 +82,7 @@ void MyApp::generarReporteDiario() {
         }
     }
 }
-void MyApp::generarReporteAnual() {
+void MyApp::generarReporteAnual(Usuario usuario) {
     time_t tiempoActual = chrono::system_clock::to_time_t(chrono::system_clock::now());
     string strTiempoActual = ctime(&tiempoActual);
     string fechaPeticion = strTiempoActual.substr(4, 7) + strTiempoActual.substr(20, 4); // Mon DD YYYY
@@ -94,67 +98,102 @@ void MyApp::generarReporteAnual() {
         }
     }
 }
-//void MyApp::generarReporteCalorico() {
-//    usuario.getMenus();
-//    for (int i = 0; i < usuario.getMenus().size(); i++) {
-//        Menu menuActual = usuario.getMenus()[i];
-//        cout << "El menu que creaste el dia: ";
-//        cout << menuActual.getFechaCreacion() << "\n";
-//        cout << "A las: ";
-//        cout << menuActual.getHoraCreacion() << "\n";
-//        int caloriasMenu = menuActual.getCalorias();
-//        cout << "Contiene:" << caloriasMenu << "calorias \n";
-//    }
-//}
+void MyApp::generarReporteCalorico(Usuario usuario) {
+    usuario.getMenus();
+    for (int i = 0; i < usuario.getMenus().size(); i++) {
+        Menu menuActual = usuario.getMenus()[i];
+        cout << "El menu que creaste el dia: ";
+        cout << menuActual.getFechaCreacion() << "\n";
+        cout << "A las: ";
+        cout << menuActual.getHoraCreacion() << "\n";
+        int caloriasMenu = menuActual.getCaloriasContadas();
+        cout << "Contiene: " << caloriasMenu << " calorias \n";
+    }
+}
 
 void MyApp::menuPrincipal() {
     int opcion;
     bool seguir = true;
+    bool existeUsuario = false;
+    int usuarioIndex;
+    string nombreUsuario;
     while (seguir == true) {
         cout << "¡Bienvenido a Vida Sana! \n";
-        cout << "1. Registrar datos \n";
-        cout << "2. Recomendar menu \n";
-        cout << "3. Generar reporte \n";
-        cout << "4. Salir \n";
+        cout << "1. Iniciar sesion \n";
+        cout << "2. Registrarse \n";
+        cout << "3. Salir \n";
         cin >> opcion;
         switch (opcion) {
             case 1:
-                registrarDatos();
-                break;
-            case 2:
-                recomendarMenu();
-                break;
-            case 3:
-                int opcionReporte;
-                cout << "Seleccione la opción de reporte que desee \n";
-                cout << "1. Reporte completo \n";
-                cout << "2. Reporte mensual \n";
-                cout << "3. Reporte diario \n";
-                cout << "4. Reporte anual \n";
-                cout << "5. Reporte calorico \n";
-                cin >> opcionReporte;
-                switch (opcionReporte) {
-                    case 1:
-                        generarReporteCompleto();
-                        break;
-                    case 2:
-                        generarReporteMensual();
-                        break;
-                    case 3:
-                        generarReporteDiario();
-                        break;
-                    case 4:
-                        generarReporteAnual();
-                        break;
-                    case 5:
-                        //generarReporteCalorico();
-                        break;
-                    default:
-                        cout << "Opcion invalida \n";
-                        break;
+                cout << "Ingrese su nombre de usuario: \n";
+                cin >> nombreUsuario; // use variable
+                for (int i = 0; i < usuarios.size(); i++) {
+                    if (usuarios[i]->getNombreUsuario() == nombreUsuario) {
+                        existeUsuario = true;
+                        usuarioIndex = i;
+                    }
+                }
+                if (existeUsuario == true) {
+                    menuUsuario(*usuarios[usuarioIndex]);
+                } else {
+                    cout << "El usuario no existe \n";
                 }
                 break;
+            case 2:
+                crearUsuario();
+                cout << "Usuario creado con exito \n";
+                break;
+            case 3:
+                seguir = false;
+                break;
+        }
+    }
+}
+
+void MyApp::menuUsuario(Usuario &usuario) {
+    bool seguir = true;
+    bool hayDatos = false;
+    int opcion;
+    while (seguir == true) {
+        cout << "1. Registrar datos \n";
+        cout << "2. Recomendar menu \n";
+        cout << "3. Generar reporte completo \n";
+        cout << "4. Generar reporte mensual \n";
+        cout << "5. Generar reporte diario \n";
+        cout << "6. Generar reporte anual \n";
+        cout << "7. Generar reporte calorico \n";
+        cout << "8. Salir \n";
+        cin >> opcion;
+        switch (opcion) {
+            case 1:
+                registrarDatos(usuario);
+                hayDatos = true;
+                break;
+            case 2:
+                if (hayDatos == false) {
+                    cout << "No hay datos registrados para poder crear tu menu. \n";
+                    break;
+                } else {
+                    recomendarMenu(usuario);
+                    break;
+                }
+                break;
+            case 3:
+                generarReporteCompleto(usuario);
+                break;
             case 4:
+                generarReporteMensual(usuario);
+                break;
+            case 5:
+                generarReporteDiario(usuario);
+                break;
+            case 6:
+                generarReporteAnual(usuario);
+                break;
+            case 7:
+                generarReporteCalorico(usuario);
+                break;
+            case 8:
                 seguir = false;
                 break;
             default:

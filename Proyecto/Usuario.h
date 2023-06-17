@@ -20,6 +20,7 @@ public:
     ~Usuario() {}
 
     // Métodos
+    string getNombreUsuario() const { return nombreUsuario; }
     vector<Menu> getMenus() const { return menus; }
     void setNombreUsuario(string nombreUsuario) { this->nombreUsuario = nombreUsuario; }
     void implementarMenu();

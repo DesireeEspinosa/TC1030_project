@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto"
+CMAKE_SOURCE_DIR = "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto.dir/depend.make
@@ -71,100 +71,100 @@ include CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/main.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/Proyecto.dir/main.cpp.obj: CMakeFiles/Proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/main.cpp.obj -MF CMakeFiles\Proyecto.dir\main.cpp.obj.d -o CMakeFiles\Proyecto.dir\main.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/main.cpp.obj -MF CMakeFiles\Proyecto.dir\main.cpp.obj.d -o CMakeFiles\Proyecto.dir\main.cpp.obj -c "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\main.cpp"
 
 CMakeFiles/Proyecto.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\main.cpp" > CMakeFiles\Proyecto.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\main.cpp" > CMakeFiles\Proyecto.dir\main.cpp.i
 
 CMakeFiles/Proyecto.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\main.cpp" -o CMakeFiles\Proyecto.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\main.cpp" -o CMakeFiles\Proyecto.dir\main.cpp.s
 
 CMakeFiles/Proyecto.dir/Alimento.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/Alimento.cpp.obj: ../Alimento.cpp
 CMakeFiles/Proyecto.dir/Alimento.cpp.obj: CMakeFiles/Proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto.dir/Alimento.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Alimento.cpp.obj -MF CMakeFiles\Proyecto.dir\Alimento.cpp.obj.d -o CMakeFiles\Proyecto.dir\Alimento.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Alimento.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto.dir/Alimento.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Alimento.cpp.obj -MF CMakeFiles\Proyecto.dir\Alimento.cpp.obj.d -o CMakeFiles\Proyecto.dir\Alimento.cpp.obj -c "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Alimento.cpp"
 
 CMakeFiles/Proyecto.dir/Alimento.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/Alimento.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Alimento.cpp" > CMakeFiles\Proyecto.dir\Alimento.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Alimento.cpp" > CMakeFiles\Proyecto.dir\Alimento.cpp.i
 
 CMakeFiles/Proyecto.dir/Alimento.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/Alimento.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Alimento.cpp" -o CMakeFiles\Proyecto.dir\Alimento.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Alimento.cpp" -o CMakeFiles\Proyecto.dir\Alimento.cpp.s
 
 CMakeFiles/Proyecto.dir/Persona.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/Persona.cpp.obj: ../Persona.cpp
 CMakeFiles/Proyecto.dir/Persona.cpp.obj: CMakeFiles/Proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto.dir/Persona.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Persona.cpp.obj -MF CMakeFiles\Proyecto.dir\Persona.cpp.obj.d -o CMakeFiles\Proyecto.dir\Persona.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Persona.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto.dir/Persona.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Persona.cpp.obj -MF CMakeFiles\Proyecto.dir\Persona.cpp.obj.d -o CMakeFiles\Proyecto.dir\Persona.cpp.obj -c "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Persona.cpp"
 
 CMakeFiles/Proyecto.dir/Persona.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/Persona.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Persona.cpp" > CMakeFiles\Proyecto.dir\Persona.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Persona.cpp" > CMakeFiles\Proyecto.dir\Persona.cpp.i
 
 CMakeFiles/Proyecto.dir/Persona.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/Persona.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Persona.cpp" -o CMakeFiles\Proyecto.dir\Persona.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Persona.cpp" -o CMakeFiles\Proyecto.dir\Persona.cpp.s
 
 CMakeFiles/Proyecto.dir/Menu.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/Menu.cpp.obj: ../Menu.cpp
 CMakeFiles/Proyecto.dir/Menu.cpp.obj: CMakeFiles/Proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto.dir/Menu.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Menu.cpp.obj -MF CMakeFiles\Proyecto.dir\Menu.cpp.obj.d -o CMakeFiles\Proyecto.dir\Menu.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Menu.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto.dir/Menu.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Menu.cpp.obj -MF CMakeFiles\Proyecto.dir\Menu.cpp.obj.d -o CMakeFiles\Proyecto.dir\Menu.cpp.obj -c "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Menu.cpp"
 
 CMakeFiles/Proyecto.dir/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/Menu.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Menu.cpp" > CMakeFiles\Proyecto.dir\Menu.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Menu.cpp" > CMakeFiles\Proyecto.dir\Menu.cpp.i
 
 CMakeFiles/Proyecto.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/Menu.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Menu.cpp" -o CMakeFiles\Proyecto.dir\Menu.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Menu.cpp" -o CMakeFiles\Proyecto.dir\Menu.cpp.s
 
 CMakeFiles/Proyecto.dir/Grupo.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/Grupo.cpp.obj: ../Grupo.cpp
 CMakeFiles/Proyecto.dir/Grupo.cpp.obj: CMakeFiles/Proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto.dir/Grupo.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Grupo.cpp.obj -MF CMakeFiles\Proyecto.dir\Grupo.cpp.obj.d -o CMakeFiles\Proyecto.dir\Grupo.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Grupo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto.dir/Grupo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Grupo.cpp.obj -MF CMakeFiles\Proyecto.dir\Grupo.cpp.obj.d -o CMakeFiles\Proyecto.dir\Grupo.cpp.obj -c "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Grupo.cpp"
 
 CMakeFiles/Proyecto.dir/Grupo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/Grupo.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Grupo.cpp" > CMakeFiles\Proyecto.dir\Grupo.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Grupo.cpp" > CMakeFiles\Proyecto.dir\Grupo.cpp.i
 
 CMakeFiles/Proyecto.dir/Grupo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/Grupo.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Grupo.cpp" -o CMakeFiles\Proyecto.dir\Grupo.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Grupo.cpp" -o CMakeFiles\Proyecto.dir\Grupo.cpp.s
 
 CMakeFiles/Proyecto.dir/Usuario.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/Usuario.cpp.obj: ../Usuario.cpp
 CMakeFiles/Proyecto.dir/Usuario.cpp.obj: CMakeFiles/Proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto.dir/Usuario.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Usuario.cpp.obj -MF CMakeFiles\Proyecto.dir\Usuario.cpp.obj.d -o CMakeFiles\Proyecto.dir\Usuario.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Usuario.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto.dir/Usuario.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/Usuario.cpp.obj -MF CMakeFiles\Proyecto.dir\Usuario.cpp.obj.d -o CMakeFiles\Proyecto.dir\Usuario.cpp.obj -c "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Usuario.cpp"
 
 CMakeFiles/Proyecto.dir/Usuario.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/Usuario.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Usuario.cpp" > CMakeFiles\Proyecto.dir\Usuario.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Usuario.cpp" > CMakeFiles\Proyecto.dir\Usuario.cpp.i
 
 CMakeFiles/Proyecto.dir/Usuario.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/Usuario.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\Usuario.cpp" -o CMakeFiles\Proyecto.dir\Usuario.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\Usuario.cpp" -o CMakeFiles\Proyecto.dir\Usuario.cpp.s
 
 CMakeFiles/Proyecto.dir/MyApp.cpp.obj: CMakeFiles/Proyecto.dir/flags.make
 CMakeFiles/Proyecto.dir/MyApp.cpp.obj: ../MyApp.cpp
 CMakeFiles/Proyecto.dir/MyApp.cpp.obj: CMakeFiles/Proyecto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto.dir/MyApp.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/MyApp.cpp.obj -MF CMakeFiles\Proyecto.dir\MyApp.cpp.obj.d -o CMakeFiles\Proyecto.dir\MyApp.cpp.obj -c "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\MyApp.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto.dir/MyApp.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto.dir/MyApp.cpp.obj -MF CMakeFiles\Proyecto.dir\MyApp.cpp.obj.d -o CMakeFiles\Proyecto.dir\MyApp.cpp.obj -c "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\MyApp.cpp"
 
 CMakeFiles/Proyecto.dir/MyApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto.dir/MyApp.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\MyApp.cpp" > CMakeFiles\Proyecto.dir\MyApp.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\MyApp.cpp" > CMakeFiles\Proyecto.dir\MyApp.cpp.i
 
 CMakeFiles/Proyecto.dir/MyApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto.dir/MyApp.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\MyApp.cpp" -o CMakeFiles\Proyecto.dir\MyApp.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\MyApp.cpp" -o CMakeFiles\Proyecto.dir\MyApp.cpp.s
 
 # Object files for target Proyecto
 Proyecto_OBJECTS = \
@@ -190,7 +190,7 @@ Proyecto.exe: CMakeFiles/Proyecto.dir/build.make
 Proyecto.exe: CMakeFiles/Proyecto.dir/linklibs.rsp
 Proyecto.exe: CMakeFiles/Proyecto.dir/objects1.rsp
 Proyecto.exe: CMakeFiles/Proyecto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Proyecto.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Proyecto.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -202,6 +202,6 @@ CMakeFiles/Proyecto.dir/clean:
 .PHONY : CMakeFiles/Proyecto.dir/clean
 
 CMakeFiles/Proyecto.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug" "C:\Users\PC BULLOCK\Documents\2do semestre\tc1030\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles\Proyecto.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto" "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto" "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug" "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug" "C:\Users\PC BULLOCK\Documents\TC1030_project\Proyecto\cmake-build-debug\CMakeFiles\Proyecto.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto.dir/depend
 

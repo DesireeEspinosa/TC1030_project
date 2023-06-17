@@ -1,7 +1,7 @@
 CMakeFiles/Proyecto.dir/Usuario.cpp.obj: \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Usuario.cpp \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Usuario.h \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Menu.h \
+ C:\Users\PC\ BULLOCK\Documents\TC1030_project\Proyecto\Usuario.cpp \
+ C:\Users\PC\ BULLOCK\Documents\TC1030_project\Proyecto\Usuario.h \
+ C:\Users\PC\ BULLOCK\Documents\TC1030_project\Proyecto\Menu.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -134,16 +134,16 @@ CMakeFiles/Proyecto.dir/Usuario.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Grupo.h \
+ C:\Users\PC\ BULLOCK\Documents\TC1030_project\Proyecto\Grupo.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Alimento.h \
+ C:\Users\PC\ BULLOCK\Documents\TC1030_project\Proyecto\Alimento.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
- C:\Users\PC\ BULLOCK\Documents\2do\ semestre\tc1030\TC1030_project\Proyecto\Persona.h
+ C:\Users\PC\ BULLOCK\Documents\TC1030_project\Proyecto\Persona.h
