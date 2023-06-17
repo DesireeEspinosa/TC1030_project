@@ -12,6 +12,7 @@ class Menu {
     string fechaCreacion, horaCreacion;
     Grupo verduras, frutas, cereales, carnes, lacteos;
     vector<Alimento*> desayuno, comida, cena;
+    int caloriasContadas;
 public:
     Menu();
     Menu(int);
@@ -20,7 +21,7 @@ public:
     // Métodos
     string getFechaCreacion() const { return fechaCreacion; }
     string getHoraCreacion() const { return horaCreacion; }
-    //int getCalorias() const { return calorias; }
+    int getCaloriasContadas() const { return caloriasContadas; }
     void crearDesayuno(int limCalorias);
     void crearComida(int limCalorias);
     void crearCena(int limCalorias);

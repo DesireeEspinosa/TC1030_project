@@ -16,12 +16,12 @@ public:
     ~MyApp() = default;
     void crearUsuario();
     void registrarDatos(Usuario usuario);
-    void recomendarMenu(Usuario usuario);
+    void recomendarMenu(Usuario &usuario);
     void generarReporteCompleto(Usuario usuario);
     void generarReporteMensual(Usuario usuario);
     void generarReporteDiario(Usuario usuario);
     void generarReporteAnual(Usuario usuario);
-    //void generarReporteCalorico();
+    void generarReporteCalorico(Usuario usuario);
     void menuPrincipal();
     void menuUsuario(Usuario &usuario);
 };

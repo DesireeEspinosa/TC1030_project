@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto
+# Install script for directory: C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

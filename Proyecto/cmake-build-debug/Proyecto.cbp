@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto">
-				<Option output="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Proyecto.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug"/>
+				<Option output="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Proyecto.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -34,15 +34,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto/fast">
-				<Option output="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Proyecto.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug"/>
+				<Option output="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Proyecto.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,73 +57,73 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug"/>
+				<Option working_dir="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Alimento.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Alimento.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Alimento.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Alimento.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Grupo.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Grupo.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Grupo.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Grupo.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Menu.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Menu.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Menu.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Menu.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/MyApp.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/MyApp.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/MyApp.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/MyApp.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Persona.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Persona.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Persona.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Persona.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Usuario.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Usuario.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/Usuario.h">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/Usuario.h">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/main.cpp">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/main.cpp">
 			<Option target="Proyecto"/>
 		</Unit>
-		<Unit filename="C:/Users/yasmi/OneDrive/Documents/2do semestre/poo 2/TC1030_project/Proyecto/CMakeLists.txt">
+		<Unit filename="C:/Users/PC BULLOCK/Documents/TC1030_project/Proyecto/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

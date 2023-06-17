@@ -34,7 +34,7 @@ void MyApp::registrarDatos(Usuario usuario) {
     usuario.setEdad(usuarioEdad);
 }
 
-void MyApp::recomendarMenu(Usuario usuario) {
+void MyApp::recomendarMenu(Usuario &usuario) {
     bool seguir = true;
     int opcion;
     while (seguir == true) {
@@ -98,18 +98,18 @@ void MyApp::generarReporteAnual(Usuario usuario) {
         }
     }
 }
-//void MyApp::generarReporteCalorico() {
-//    usuario.getMenus();
-//    for (int i = 0; i < usuario.getMenus().size(); i++) {
-//        Menu menuActual = usuario.getMenus()[i];
-//        cout << "El menu que creaste el dia: ";
-//        cout << menuActual.getFechaCreacion() << "\n";
-//        cout << "A las: ";
-//        cout << menuActual.getHoraCreacion() << "\n";
-//        int caloriasMenu = menuActual.getCalorias();
-//        cout << "Contiene:" << caloriasMenu << "calorias \n";
-//    }
-//}
+void MyApp::generarReporteCalorico(Usuario usuario) {
+    usuario.getMenus();
+    for (int i = 0; i < usuario.getMenus().size(); i++) {
+        Menu menuActual = usuario.getMenus()[i];
+        cout << "El menu que creaste el dia: ";
+        cout << menuActual.getFechaCreacion() << "\n";
+        cout << "A las: ";
+        cout << menuActual.getHoraCreacion() << "\n";
+        int caloriasMenu = menuActual.getCaloriasContadas();
+        cout << "Contiene: " << caloriasMenu << " calorias \n";
+    }
+}
 
 void MyApp::menuPrincipal() {
     int opcion;
@@ -141,6 +141,7 @@ void MyApp::menuPrincipal() {
                 break;
             case 2:
                 crearUsuario();
+                cout << "Usuario creado con exito \n";
                 break;
             case 3:
                 seguir = false;
@@ -151,6 +152,7 @@ void MyApp::menuPrincipal() {
 
 void MyApp::menuUsuario(Usuario &usuario) {
     bool seguir = true;
+    bool hayDatos = false;
     int opcion;
     while (seguir == true) {
         cout << "1. Registrar datos \n";
@@ -159,14 +161,22 @@ void MyApp::menuUsuario(Usuario &usuario) {
         cout << "4. Generar reporte mensual \n";
         cout << "5. Generar reporte diario \n";
         cout << "6. Generar reporte anual \n";
-        cout << "7. Salir \n";
+        cout << "7. Generar reporte calorico \n";
+        cout << "8. Salir \n";
         cin >> opcion;
         switch (opcion) {
             case 1:
                 registrarDatos(usuario);
+                hayDatos = true;
                 break;
             case 2:
-                recomendarMenu(usuario);
+                if (hayDatos == false) {
+                    cout << "No hay datos registrados para poder crear tu menu. \n";
+                    break;
+                } else {
+                    recomendarMenu(usuario);
+                    break;
+                }
                 break;
             case 3:
                 generarReporteCompleto(usuario);
@@ -181,6 +191,9 @@ void MyApp::menuUsuario(Usuario &usuario) {
                 generarReporteAnual(usuario);
                 break;
             case 7:
+                generarReporteCalorico(usuario);
+                break;
+            case 8:
                 seguir = false;
                 break;
             default:
